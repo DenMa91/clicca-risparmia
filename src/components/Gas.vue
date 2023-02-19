@@ -51,7 +51,7 @@
 
     function setText() {
         if (message.value) {
-            text.value = 'motivo del contatto: ' + type.value + ', messaggio: ' + message.value
+            text = 'motivo del contatto: ' + type.value + ', messaggio: ' + message.value
         } 
         url = ref('https://wa.me/3487934801?text=' + encodeURIComponent(text))
     }
